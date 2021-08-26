@@ -1,2 +1,2 @@
 # node-scraper
-Scrapper using Puppeteer
+Scraper using Puppeteer
