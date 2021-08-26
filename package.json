@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/evbermudez/node-scrapper#readme",
   "dependencies": {
-    "mongodb": "^4.1.1",
     "puppeteer": "^10.2.0"
   }
 }
