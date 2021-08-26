@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/evbermudez/node-scrapper/issues"
   },
-  "homepage": "https://github.com/evbermudez/node-scrapper#readme"
+  "homepage": "https://github.com/evbermudez/node-scrapper#readme",
+  "dependencies": {
+    "puppeteer": "^10.2.0"
+  }
 }
