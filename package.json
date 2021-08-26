@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/evbermudez/node-scrapper#readme",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.1",
     "mongodb": "^4.1.1",
     "pug": "^3.0.2",
+=======
+>>>>>>> parent of c792c08 (Add mongodb)
     "puppeteer": "^10.2.0"
   }
 }
