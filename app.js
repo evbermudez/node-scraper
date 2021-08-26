@@ -8,13 +8,15 @@ const puppeteer = require("puppeteer")
     /* Run javascript inside the page */
     const data = await page.evaluate(() => {
         const list = []
-        const items = document.querySelectorAll(".results")
+        const items = document.querySelectorAll(".jobpost-cat-box")
 
         for (const item of items) {
             list.push({
                 company: item.querySelector(".jobpost-cat-box a p").innerHTML,
                 rate: item.querySelector(".jobpost-cat-box a dd").innerHTML,
-                position: item.querySelector(".jobpost-cat-box a dt").innerHTML,
+                position: item.querySelector(".jobpost-cat-box a dt h4").innerHTML,
+                link: 'https://www.onlinejobs.ph' + item.querySelector(".jobpost-cat-box a")
+                    .getAttribute("href"),
             })
         }
 
